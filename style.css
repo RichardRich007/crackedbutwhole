@@ -1,0 +1,64 @@
+body {
+	background-image: url(bg.jpg);
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+
+tr {
+    float: left;
+}
+
+td {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+td:hover {
+    background-color: white;
+}
+
+*{
+    font-family: cursive;
+    color: black;
+}
+
+#sleva {
+    position: absolute;
+    left: 130px;
+
+}
+
+#seredka {
+    position: absolute;
+    bottom: 130px;
+    margin-left: 750px;
+    margin-bottom: 500px
+}
+
+#sprava {
+    position: absolute;
+    bottom: 100px;
+    margin-bottom: 500px;
+    margin-left: 1100px;
+}
+
+#niz {
+    position: absolute;
+    top: 700px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.seredina {
+    position: absolute;
+    left: 490px;
+    bottom: 100px;
+}
